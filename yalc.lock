@@ -1,0 +1,15 @@
+{
+  "version": "v1",
+  "packages": {
+    "@free2move/mobility-needs-simulator-lib": {
+      "version": "1.0.0",
+      "signature": "1e6b05e125e1a807dc74cb99fc29652d",
+      "file": true
+    },
+    "@oncode/oncode-react-form": {
+      "version": "1.0.0",
+      "signature": "8290b3e2410a235e0d2d675fc79912e8",
+      "file": true
+    }
+  }
+}
