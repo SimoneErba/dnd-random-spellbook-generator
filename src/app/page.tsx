@@ -13,10 +13,7 @@ interface SpellType {
 }
 
 export default function Home(): JSX.Element {
-
-  return (
-    <HomeClient />
-  );
+  return <HomeClient />;
 }
 
 export const metadata = {
