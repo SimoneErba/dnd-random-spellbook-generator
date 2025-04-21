@@ -37,8 +37,8 @@ export default [
       parser: tsParser,
     },
     files: ["**/*.{ts,tsx,js,jsx,mts,cts}"],
-    rules: Object.keys(require('@eslint/eslintrc/lib/rules')).reduce((acc, rule) => {
-      acc[rule] = "off";  // Disable all rules
+    rules: Object.keys(require("@eslint/eslintrc/lib/rules")).reduce((acc, rule) => {
+      acc[rule] = "off"; // Disable all rules
       return acc;
     }, {}),
   },

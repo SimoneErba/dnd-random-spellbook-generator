@@ -1,9 +1,11 @@
 "use client";
+
 import React, { JSX, useState } from "react";
+
 import Slots from "./components/Slots";
-import UserSpells from "./components/UserSpells";
-import SpellInput from "./components/SpellInput";
 import SpellBookDisplay from "./components/SpellBookDisplay";
+import SpellInput from "./components/SpellInput";
+import UserSpells from "./components/UserSpells";
 
 export interface SpellsType {
   slots: number[];
@@ -16,7 +18,7 @@ interface SpellType {
 }
 
 export default function Home(): JSX.Element {
-  const [spellLevels, setSpellLevels] = useState<SpellsType>({spells: [], slots: []});
+  const [spellLevels, setSpellLevels] = useState<SpellsType>({ spells: [], slots: [] });
 
   return (
     <div className="p-4 bg-gray-100 h-screen">
