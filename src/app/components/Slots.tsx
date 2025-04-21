@@ -23,7 +23,7 @@ export default function Slots({ onChange }: SlotsProps): JSX.Element {
       <div className="flex flex-wrap gap-2">
         {slots.map((slot, index) => (
           <div key={index} className="flex items-center bg-gray-100 p-2 rounded-md space-x-2">
-            <p className="text-sm">Level {index}</p>
+            <p className="text-sm text-gray-900">Level {index}</p>
             <input
               value={slot.toString()}
               onChange={(e) => handleSlotChange(e.target.value, index)}

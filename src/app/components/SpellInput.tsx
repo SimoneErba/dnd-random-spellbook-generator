@@ -36,7 +36,7 @@ export default function SpellInput({ onChange }: { onChange: (spells: { name: st
 
   return (
     <div className="mb-4">
-      <label className="font-semibold mb-2 block">Select Spells:</label>
+      <label className="font-semibold mb-2 block text-gray-900">Select Spells:</label>
       <Select
         isMulti
         options={options}

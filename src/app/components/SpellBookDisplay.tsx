@@ -64,7 +64,7 @@ export default function SpellBookDisplay({ spellLevels }) {
       {generatedSpellbook.length > 0 ? (
         <UserSpells spellLevels={{ spells: generatedSpellbook }} />
       ) : (
-        <p className="mt-2">No spells selected yet. Press "Generate Spellbook" after selecting spells.</p>
+        <p className="mt-2 text-gray-900">No spells selected yet. Press "Generate Spellbook" after selecting spells.</p>
       )}
     </div>
   );
