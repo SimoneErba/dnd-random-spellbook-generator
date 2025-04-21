@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import Select from "react-select";
+
 import spellsData from "../../../assets/spells.json";
 import { SpellsType } from "../page";
 
@@ -9,11 +10,7 @@ interface OptionType {
   level: number;
 }
 
-export default function SpellInput({
-  onChange,
-}: {
-  onChange: (spells: { name: string; level: number }[]) => void;
-}) {
+export default function SpellInput({ onChange }: { onChange: (spells: { name: string; level: number }[]) => void }) {
   const options: OptionType[] = spellsData.map((spell: { name: string; level: number }) => ({
     label: spell.name,
     value: spell.name,

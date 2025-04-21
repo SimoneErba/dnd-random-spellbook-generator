@@ -1,4 +1,5 @@
 import React, { JSX, useState } from "react";
+
 import { SpellsType } from "../page";
 
 interface SlotsProps {

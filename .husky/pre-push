@@ -1,5 +1,0 @@
-pnpm lint --fix
-pnpm format:check
-tsc --noEmit
-
-pnpm build
