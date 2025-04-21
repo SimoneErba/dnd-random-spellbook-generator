@@ -11,7 +11,7 @@ export default function UserSpells({ spellLevels }) {
   });
 
   return (
-    <div className="flex-1">
+    <div className="flex-1 overflow-y-auto">
       {Object.entries(spellsByLevel)
         .sort((a, b) => a[0].localeCompare(b[0]))
         .map(([level, spells]) => (
