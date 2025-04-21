@@ -22,6 +22,7 @@
     "deploy": "gh-pages -d out"
   },
   "dependencies": {
+    "@vercel/analytics": "^1.5.0",
     "eslint-prettier-next-15": "^0.1.11",
     "next": "15.2.0",
     "react": "^19.0.0",

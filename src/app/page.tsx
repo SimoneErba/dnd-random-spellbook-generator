@@ -43,11 +43,17 @@ export default function Home(): JSX.Element {
 
 export const metadata = {
   title: "D&D Spellbook Generator – Create Random Spellbooks Instantly",
-  description: "Build a custom Dungeons & Dragons spellbook in seconds! Randomly generate spell lists by class and level for your next campaign.",
+  description:
+    "Build a custom Dungeons & Dragons spellbook in seconds! Randomly generate spell lists by class and level for your next campaign.",
   keywords: [
-    "D&D", "DnD", "Dungeons and Dragons",
-    "spellbook generator", "random spellbook",
-    "D&D spells", "D&D 5e tools", "D&D character tools"
+    "D&D",
+    "DnD",
+    "Dungeons and Dragons",
+    "spellbook generator",
+    "random spellbook",
+    "D&D spells",
+    "D&D 5e tools",
+    "D&D character tools",
   ],
   openGraph: {
     title: "D&D Spellbook Generator",
@@ -59,15 +65,15 @@ export const metadata = {
         url: "https://your-domain.com/og-image.png",
         width: 1200,
         height: 630,
-        alt: "D&D Spellbook Generator Screenshot"
-      }
+        alt: "D&D Spellbook Generator Screenshot",
+      },
     ],
-    type: "website"
+    type: "website",
   },
   twitter: {
     card: "summary_large_image",
     title: "D&D Spellbook Generator",
     description: "Build a spellbook in seconds for your next campaign!",
-    images: ["https://your-domain.com/og-image.png"]
-  }
-}
+    images: ["https://your-domain.com/og-image.png"],
+  },
+};
