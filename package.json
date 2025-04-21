@@ -1,5 +1,5 @@
 {
-  "homepage": "https://simone.erba.github.io/dnd-random-spell-generator",
+  "homepage": "https://dnd-random-spellbook-generator.vercel.app/",
   "name": "react-next-boilerplate",
   "version": "1.2.1",
   "private": true,
